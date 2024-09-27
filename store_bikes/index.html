@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tienda de Bicicletas</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <img id="header-img" src="logo-bicicleta.png" alt="Logo Tienda de Bicicletas" />
+        
+        <!-- Barra de navegación fija -->
+        <nav id="nav-bar">
+          <a class="nav-link" href="#home">Inicio</a>
+          <a class="nav-link" href="#productos">Productos</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </nav>
+
+        <h2>¡Bienvenido a la Tienda de Bicicletas!</h2>
+        
+        <!-- Formulario para suscribirse a la lista de correos -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" placeholder="example@gmail.com" name="email" required />
+          <input id="submit" type="submit" value="Suscribirse" />
+        </form>
+      </header>
+
+      <!-- Sección de Inicio -->
+      <section id="home">
+        <h1>Encuentra la bicicleta perfecta para ti</h1>
+        <p>Explora nuestra amplia gama de bicicletas de montaña, carretera y más.</p>
+        <video id="video" src="video-bicicleta.mp4" controls></video>
+      </section>
+
+      <!-- Sección de Productos -->
+      <section id="productos">
+        <h1>Nuestros Productos</h1>
+        <div class="productos-container">
+          <div class="producto-item">
+            <h2>Bicicleta de Montaña</h2>
+            <p>Robusta y lista para cualquier terreno.</p>
+          </div>
+          <div class="producto-item">
+            <h2>Bicicleta de Carretera</h2>
+            <p>Ligera y rápida para caminos largos.</p>
+          </div>
+          <div class="producto-item">
+            <h2>Bicicleta Eléctrica</h2>
+            <p>Comodidad y potencia para la ciudad.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <footer id="contacto">
+        <h1>Contáctanos</h1>
+        <p>Escríbenos para más información sobre nuestros productos.</p>
+      </footer>
+    </div>
+  </body>
+</html>
